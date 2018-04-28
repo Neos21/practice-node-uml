@@ -45,7 +45,7 @@ $ npm install node-plantuml --save
 }
 ```
 
-インプットとなるファイル (`example-plantuml.md`) は Shift-JIS エンコーディングにしておかないとレンダリング結果が文字化けしてしまう。
+インプットとなるファイル (`example-plantuml.md`) は Shift-JIS エンコーディングにしておかないと、日本語のレンダリング結果が文字化けしてしまう。
 
 
 ## Bibliography
