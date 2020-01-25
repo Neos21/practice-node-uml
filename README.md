@@ -56,7 +56,7 @@ $ npm install node-plantuml --save
 
 ## Author
 
-[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/Neos21))
+[Neo](http://neo.s21.xrea.com/)
 
 - [GitHub - practice-node-uml](https://github.com/Neos21/practice-node-uml)
 
