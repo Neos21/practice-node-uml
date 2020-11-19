@@ -1,25 +1,29 @@
 {
   "name": "practice-node-uml",
-  "version": "1.0.0",
   "description": "Node.js 環境で UML を描く素振りリポジトリ。",
+  "private": true,
   "scripts": {
     "mmdc": "mmdc",
     "puml": "puml",
     "generate-mermaid": "mmdc --input example-mermaid.md --output output-mermaid.png",
     "generate-plantuml": "puml generate --png --output output-plantuml.png example-plantuml.md"
   },
-  "dependencies": {
-    "mermaid.cli": "0.4.6",
-    "node-plantuml": "0.6.2"
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-node-uml#readme",
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-node-uml/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Neos21/practice-node-uml.git"
   },
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Neos21/practice-node-uml/issues"
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
   },
-  "homepage": "https://github.com/Neos21/practice-node-uml#readme"
+  "dependencies": {
+    "mermaid.cli": "0.4.6",
+    "node-plantuml": "0.6.2"
+  }
 }
